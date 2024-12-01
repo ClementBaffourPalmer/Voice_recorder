@@ -28,8 +28,8 @@ def record_audio(file_name: str, duration: int, sample_rate: int = 44100):
 
 if __name__ == "__main__":
     # Customize the recording
-    output_file = "recording.wav"  # Change file name as desired
-    recording_duration = 10  # Set your recording duration in seconds
+    output_file = "my_recording.wav"  
+    recording_duration = 10  # Sets the recording duration in seconds
     sampling_rate = 44100  # Default high-quality sampling rate
 
     # Record and save the audio
