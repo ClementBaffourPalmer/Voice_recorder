@@ -20,28 +20,28 @@ scipy
 wavio (optional, for alternative WAV file handling)
 You can install the required packages by running:
 
-# bash
+bash
 pip install sounddevice scipy wavio
 How to Use
 Clone the repository to your local machine:
 
-# bash
+ bash
 git clone https://github.com/ClementBaffourPalmer/Voice_recorder.git
 cd Voice_recorder
 Ensure the virtual environment is set up and activated:
 
-# bash
+bash
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 Install dependencies:
 
-# bash
+bash
 pip install -r requirements.txt
 Run the Python script to record audio:
 
 
-# bash
+bash
 python voice_recorder.py
 The recorded audio will be saved in the same directory as recording.wav.
 
@@ -61,7 +61,7 @@ Include a playback option.
 Add error handling for microphone availability.
 Project Structure
 
-# bash
+bash
 
 Voice_recorder/
 ├── environ/          # Virtual environment (optional, not pushed to GitHub)
